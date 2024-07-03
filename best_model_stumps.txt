@@ -1,0 +1,14 @@
+Decision Stumps.
+Hypothesis: 2.010801127242597 -26.0 26.0 
+Root: notendAEIO 5 10 26 {
+	Leaf: DUT ,
+	Leaf: ITA ,
+}
+Root: endEN 0 0 0 {
+	Leaf: DUT ,
+	Leaf: ITA ,
+}
+Root: endEN 0 0 0 {
+	Leaf: DUT ,
+	Leaf: ITA ,
+}

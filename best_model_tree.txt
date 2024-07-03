@@ -1,0 +1,125 @@
+Decision Tree.
+Root: notendAEIO 5 10 26 {
+	Node: endEN 0 0 0 {
+		Node: numDOUBLES 0 0 2 {
+			Node: hasJKWXY 0 0 3 {
+				Node: medianLENGTH 2 2 3 {
+					Node: maxLENGTH 6 7 8 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Leaf: DUT ,
+				}
+				Node: medianLENGTH 3 3 5 {
+					Node: maxLENGTH 6 10 -1 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Leaf: DUT ,
+				}
+			}
+			Node: hasJKWXY 0 2 -1 {
+				Node: maxLENGTH 6 9 -1 {
+					Node: medianLENGTH 2 3 -1 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Leaf: DUT ,
+				}
+				Node: medianLENGTH 2 -1 -1 {
+					Node: maxLENGTH 5 -1 -1 {
+						Leaf: DUT ,
+						Leaf: ITA ,
+					}
+					Leaf: ITA ,
+				}
+			}
+		}
+		Node: hasJKWXY 0 2 6 {
+			Node: numDOUBLES 0 0 3 {
+				Node: maxLENGTH 4 8 10 {
+					Node: medianLENGTH 2 3 -1 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Node: medianLENGTH -1 4 -1 {
+						Leaf: DUT ,
+						Leaf: ITA ,
+					}
+				}
+				Node: medianLENGTH 1 6 6 {
+					Node: maxLENGTH 5 -1 -1 {
+						Leaf: DUT ,
+						Leaf: *** No more features, same matches ,
+					}
+					Leaf: DUT ,
+				}
+			}
+			Node: numDOUBLES 3 8 9 {
+				Node: medianLENGTH 4 -1 -1 {
+					Node: maxLENGTH 8 -1 -1 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Leaf: DUT ,
+				}
+				Node: medianLENGTH 6 7 5 {
+					Node: maxLENGTH 7 -1 -1 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Node: maxLENGTH 16 17 12 {
+						Leaf: DUT ,
+						Leaf: ITA ,
+					}
+				}
+			}
+		}
+	}
+	Node: endEN 0 2 1 {
+		Node: hasJKWXY 0 2 3 {
+			Node: medianLENGTH 3 -1 4 {
+				Node: maxLENGTH 7 10 8 {
+					Node: numDOUBLES 0 3 3 {
+						Leaf: DUT ,
+						Leaf: DUT ,
+					}
+					Leaf: DUT ,
+				}
+				Leaf: DUT ,
+			}
+			Node: numDOUBLES 0 2 9 {
+				Node: medianLENGTH 5 -1 -1 {
+					Node: maxLENGTH 8 -1 -1 {
+						Leaf: DUT ,
+						Leaf: ITA ,
+					}
+					Node: maxLENGTH 10 -1 -1 {
+						Leaf: DUT ,
+						Leaf: *** No more features, same matches ,
+					}
+				}
+				Node: medianLENGTH 8 -1 6 {
+					Leaf: DUT ,
+					Node: maxLENGTH 11 -1 18 {
+						Leaf: *** No more features, same matches ,
+						Leaf: ITA ,
+					}
+				}
+			}
+		}
+		Node: hasJKWXY 5 15 14 {
+			Node: maxLENGTH 10 -1 9 {
+				Leaf: DUT ,
+				Node: numDOUBLES 2 -1 -1 {
+					Leaf: DUT ,
+					Leaf: ITA ,
+				}
+			}
+			Node: medianLENGTH 11 9 8 {
+				Leaf: DUT ,
+				Leaf: ITA ,
+			}
+		}
+	}
+}
